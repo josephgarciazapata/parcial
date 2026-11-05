@@ -1,0 +1,145 @@
+.contenedor {
+  background-color: #bcec0d;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  color: #334155;
+}
+
+h1 {
+  text-align: center;
+  color: #f10202;
+  margin-bottom: 2rem;
+}
+
+.mensaje-carga {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tarjeta-departamento {
+  background-color: #7d8ff5;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-departamento h2 {
+  margin: 0 0 1rem 0;
+  color: #2563eb;
+  font-size: 1.25rem;
+}
+
+.info-basica {
+  margin-bottom: 1.5rem;
+}
+
+.info-basica p {
+  margin: 0.5rem 0;
+  color: #475569;
+}
+
+.badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.btn-accion {
+  margin-top: auto;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-accion:hover {
+  background-color: #2563eb;
+}
+
+.modal-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(30, 58, 138, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-contenido {
+  background-color: #fcf81e;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid #bfdbfe;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  max-height: 85vh;
+}
+
+.modal-contenido h2 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
+
+.modal-scroll {
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-bottom: 1rem;
+}
+
+.modal-scroll h3 {
+  color: #2563eb;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-scroll p {
+  line-height: 1.6;
+  color: #475569;
+}
+
+.btn-cerrar {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-cerrar:hover {
+  background-color: #ff0000;
+}
